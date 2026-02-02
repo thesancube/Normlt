@@ -2,14 +2,13 @@
 
 buildscript {
     ext.kotlin_version = "1.8.20"
-
     dependencies {
         classpath "com.android.tools.build:gradle:8.0.2"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
-// Remove allrepositories blocks from here — settings.gradle now manages them
+// Remove all repositories from here — handled in settings.gradle
 
 task clean(type: Delete) {
     delete rootProject.buildDir
