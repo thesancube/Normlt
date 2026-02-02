@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/virtualninroto/app/src/main/java/com/virtualcontainer/MainActivity.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 2582,
+          "line": 81
+        },
+        "start": {
+          "column": 1,
+          "index": 2582,
+          "line": 81
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/virtualninroto/app/src/main/java/com/virtualcontainer/MainActivity.java"
+}
