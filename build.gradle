@@ -1,14 +1,17 @@
-// Top-level build file
-
+// Top-level build file for VirtualContainer
 buildscript {
     ext.kotlin_version = "1.8.20"
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
     dependencies {
         classpath "com.android.tools.build:gradle:8.0.2"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
-
-// Remove all repositories from here — handled in settings.gradle
 
 task clean(type: Delete) {
     delete rootProject.buildDir
